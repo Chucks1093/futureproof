@@ -48,11 +48,11 @@ const Header: React.FC = () => {
 					Team
 				</a>
 			</div>
-			<button className='flex justify-center items-center border rounded-[1.6rem] md:text-[.8rem] text-[.7rem] gap-3 pl-3 md:pl-5  border-[#e9e9e96f] backdrop-blur-md '>
+			<button className='flex justify-center items-center border rounded-[1.6rem] md:text-[.8rem] text-[.7rem] gap-3 pl-3 md:pl-5  border-[#e9e9e96f] backdrop-blur-md  font-bold '>
 				Get started
 				<ChevronRight
 					color='#c4c4c4f7'
-					className='border border-[#e9e9e95e] rounded-full w-6 h-6 md:h-9 md:w-9  md:p-1 bg-[#c4c4c41d]'
+					className='border border-[#e9e9e95e] rounded-full p-1 w-8 h-8 md:h-9 md:w-9  md:p-1 bg-[#c4c4c41d]'
 				/>
 			</button>
 		</nav>
